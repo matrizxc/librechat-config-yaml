@@ -1246,7 +1246,7 @@ endpoints:
       # Provide the key instead in each "model" block within "litellm/litellm-config.yaml"
       apiKey: "user_provided"
       # See the required changes above in "Start LiteLLM Proxy Server" step.
-      baseURL: "ai.1110836.xyz/v1"
+      baseURL: "https://ai.1110836.xyz/v1"
       # A "default" model to start new users with. The "fetch" will pull the rest of the available models from LiteLLM
       # More or less this is "irrelevant", you can pick any model. Just pick one you have defined in LiteLLM.
       models:
